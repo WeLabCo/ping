@@ -7,7 +7,7 @@ module Ping
     end
 
     def process(action, *args)
-      if force_log_ping?
+      if self.class.force_log_ping?
         super
       else
         logger.silence do
@@ -18,7 +18,7 @@ module Ping
 
     private
 
-    def force_log_ping?
+    def self.force_log_ping?
       FORCE_LOGGING
     end
 
