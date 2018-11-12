@@ -16,8 +16,6 @@ module Ping
       end
     end
 
-    private
-
     def self.force_log_ping?
       FORCE_LOGGING
     end
