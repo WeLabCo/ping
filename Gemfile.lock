@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     ping (0.1.2)
-      railties (= 6.0.3.2)
+      railties (> 5.0)
 
 GEM
   remote: https://rubygems.org/
