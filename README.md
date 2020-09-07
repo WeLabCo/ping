@@ -9,7 +9,7 @@ Which always responds with "PONG".
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "ping", github: "zillou/ping"
+gem "ping", github: "WeLabCo/ping"
 ```
 
 And then mount the engine in you application's routes (config/routes.rb):
